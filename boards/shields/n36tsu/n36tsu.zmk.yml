@@ -1,0 +1,13 @@
+file_format: "1"
+id: n36tsu
+name: n36tsu
+type: shield
+url: https://github.com/n1tsu/n36tsu/
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - n36tsu_left
+  - n36tsu_right
