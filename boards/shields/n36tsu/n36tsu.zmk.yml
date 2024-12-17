@@ -3,7 +3,7 @@ id: n36tsu
 name: n36tsu
 type: shield
 url: https://github.com/n1tsu/n36tsu/
-requires: [pro_micro]
+requires: [nice_nano_v2]
 exposes: [i2c_oled]
 features:
   - keys
