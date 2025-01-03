@@ -1,5 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
+#include "n36tsu-layout.dtsi"
+
 / {
     chosen {
         zmk,kscan = &kscan0;
