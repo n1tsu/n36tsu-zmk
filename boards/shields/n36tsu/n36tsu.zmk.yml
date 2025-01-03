@@ -4,10 +4,10 @@ name: n36tsu
 type: shield
 url: https://github.com/n1tsu/n36tsu/
 requires: [nice_nano_v2]
-exposes: [i2c_oled]
 features:
   - keys
   - display
+  - studio
 siblings:
   - n36tsu_left
   - n36tsu_right
