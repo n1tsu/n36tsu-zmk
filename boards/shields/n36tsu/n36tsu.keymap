@@ -84,9 +84,9 @@
             label = "MEDIA";
             display-name = "Media";
             bindings = <
-                &none    &none    &none     &none     &none           &kp C_PLAY     &kp C_PREV   &kp C_NEXT    &none &none
-                &kp LGUI &kp LALT &kp LCTRL &kp LSHFT &none           &kp C_MUTE     &kp C_VOL_DN &kp C_VOL_UP  &none &none
-                &none    &none    &none     &none     &none           &studio_unlock &kp C_BRI_UP &kp CI_BRI_DN &none &none
+                &none    &none    &none     &none     &none           &kp C_PLAY     &kp C_PREV   &kp C_NEXT    &bt BT_PRV &bt BT_NXT
+                &kp LGUI &kp LALT &kp LCTRL &kp LSHFT &none           &kp C_MUTE     &kp C_VOL_DN &kp C_VOL_UP  &bt BT_CLR &none
+                &none    &none    &none     &none     &none           &studio_unlock &kp C_BRI_UP &kp CI_BRI_DN &none      &none
                                   &none     &none     &none           &none     &none    &none
             >;
         };
